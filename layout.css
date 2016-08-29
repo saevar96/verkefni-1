@@ -1,13 +1,13 @@
  body {
- 	max-width:60em; /*0 ~ 960px*/
+ /*	max-width:60em; /*0 ~ 960px*/
   	margin: 0 auto;
 	padding:0;
 
 /*  font-style(1) -weight(2) -size(3) -family(4) */
 	font:normal normal 1em/1.5em "Trebuchet MS", Arial, sans-serif;
 	
-	background: url("images/body-bg.png") -100px bottom fixed no-repeat;
-
+/*	background: url("images/body-bg.png") -100px bottom fixed no-repeat;
+*/
 }
 * {
 	box-sizing:border-box;
@@ -230,55 +230,3 @@ caption {
 }
 
 
-
-
-
-/*ekki í notkun --
-article {
-	background-color: rgba(244,244,244,.7);
-	padding:0;
-	border-radius:7px;
-}
-article a {
-	color: #00467f;
-}
-article a:visited{
-	text-decoration: none;
-}
-article a:hover {
-	color: #D15600;
-	text-decoration: none;
-}
-aside {
-	background-color: rgba(244,244,244,.7);
-	padding:0;
-	border-radius:7px;
-}*/
-/*article og aside header letur
-article header, aside header {
-	height:35px;
-	background-color:#00467f;
-	border:0;
-	border-radius: 8px 8px 0 0;
-}
-aside header h3, article header h3 {
-	font-weight:normal;
-	color:#fff;
-	padding:0.3em 1em;
-	margin:0;
-}
-article p, aside p {
-	color:#444;
-}
-
-article ul {
-	margin:-1.5em 1em 1em 4em;
-}
-article footer, aside footer{
-	background-color:#aaa;
-}
-article footer p, aside footer p{
-	margin:0;
-	padding:0.5em;
-	color:#fff;
-} */
