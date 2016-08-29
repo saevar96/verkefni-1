@@ -201,16 +201,16 @@ caption {
 }
 .intro {
 	background-color: rgb(201,224,242);
-	background-image:url('images/66qoute.png'), url('images/99qoute.png');
+/*	background-image:url('images/66qoute.png'), url('images/99qoute.png');
 	background-position: left top, right bottom;
-	background-repeat: no-repeat, no-repeat;
-	padding: 3em;
+	background-repeat: no-repeat, no-repeat;*/
+	padding: 1em;
 }
 
 .intro h3 {
-	padding: 0 3em;
+	padding: 0 1em;
 	text-align: center;
-	line-height: 1.6em
+	line-height: 1.2em
 }
 .topMenu {
 	padding: 0;
