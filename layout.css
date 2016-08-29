@@ -56,9 +56,10 @@
 /*****  TYPOGRAPHY  ******/
 h1 {
 	font-weight: normal;
-	font-size: 3em;
-	line-height: .8em;
-	letter-spacing: .2em;
+	font-size: 2em;
+	line-height: 1em;
+	letter-spacing: .1em;
+	text-align: center;
 }
 h1,h2,h3 {
 	color:#00467f;
@@ -218,11 +219,14 @@ caption {
 	float: right;
 }
 .topMenu a {
+	display: block;
 	text-decoration: none;
 	font-weight: bold;
 	color:#00467f;
 }
-.topMenu a:hover {
+.topMenu a:hover, 
+.topMenu a:active, 
+.topMenu a:focus {
 	color: orange;
 }
 .padding0 {
